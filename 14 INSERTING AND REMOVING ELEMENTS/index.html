@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container bg green">
+        <div class="box bg cl da" data-created="aryan" data-made="me">This is the box</div>
+        <div class="box">This is the box</div>
+        <div class="box">This is the box</div>
+    </div>
+
+    <script>
+        // let d = document.createElement("span")
+        // d.innerHTML = "This is created div <b>by Aryan</b>"
+        // d.setAttribute("class","created")
+        // document.querySelector(".container").append(d)
+
+        // let s = document.createElement("i")
+        // s.innerHTML = "This is the italic text"
+        // s.setAttribute("class","d-flex")
+        // document.querySelector(".container").after(s)
+
+        // let p = document.createElement("div")
+        // p.innerHTML = "This is the italic text"
+        // p.setAttribute("class","d-flex")
+        // document.querySelector(".container").before(p)
+
+        // let q = document.createElement("p")
+        // q.innerHTML = "This is a paragraph"
+        // q.setAttribute("class","d-flex")
+        // document.querySelector(".container").prepend(q)
+
+        // 
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("afterbegin","<h1>This is the first heading</h1>")
+
+        // document.querySelector(".box").remove()
+        // document.querySelector(".box").remove()
+
+        console.log(cont.classList);
+        // console.log(cont.classList.add("aryan"));
+        console.log(cont.classList.remove("aryan"));
+        console.log(cont.className);
+    </script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

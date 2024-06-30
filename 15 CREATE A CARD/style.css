@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    min-height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+ol{
+    list-style: none;
+    color: white;
+}
+.card{
+    margin-top: 10px;
+    height: 106px;
+    padding: 8px 0px;
+    width: 70vw;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(65, 65, 65);
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+/* .card:hover{
+    background-color: rgb(65, 65, 65);
+} */
